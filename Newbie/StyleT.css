@@ -220,5 +220,6 @@ i, span{
 
   font-size: 22px;
 }
-.card p{ margin-left: 100px }
+.card p{ 
+  margin-left: 100px 
 }
