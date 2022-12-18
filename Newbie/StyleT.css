@@ -1,1 +1,218 @@
+body{
+  background-image: url('3d.jpg');
+  background-size:100% 100%;
+  background-repeat: no_reapet;
+  background-attachment: fixed;
+  margin:0;
+  padding:0;
+  font-family:"Roboto", sans_serif;
+}
+header{
+  position: fixed;
+  background: #0C090A;
+  padding: 20px;
+  width: 100%;
+  height: 30px;
+}
+.center_area{
+  float: right;
+  position: relative;
+  text-transform: uppercase;
+  top:-35%;
+  right:20%;
+}
+  .center_area a{
+    margin-left: 100px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 36px;
+    color:#FFFFFF;
+  }
+  .Career_btn{
+    padding: 5px;
+    background:#C0C0C0;
+    text-decoration: none;
+    float: right;
+    margin-top: -35px;
+    margin-right: 40px;
+    bodrder-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.5s;
+    trasition-property: background;
+}
+.Career.btn:hover{
+  background: #1598FF;
+}
+      }
+  Travel_btn{
+    padding: 5px;
+    background:#C0C0C0;
+    text-decoration: none;
+    float: right;
+    margin-top: -35px;
+    margin-right: 40px;
+    bodrder-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.5s;
+    trasition-property: background;
+}
+    .Travel_btn:hover{
+  background: #1598FF;
+}
+ .Home_btn{
+    padding: 5px;
+    background:#C0C0C0;
+    text-decoration: none;
+    float: right;
+    margin-top: -35px;
+    margin-right: 40px;
+    bodrder-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.5s;
+    trasition-property: background;
+}   
+  .Home_btn:hover{
+  background: #1598FF;
+}
+ .logout_btn{
+    padding: 5px;
+    background:#C0C0C0;
+    text-decoration: none;
+    float: right;
+    margin-top: -35px;
+    margin-right: 40px;
+    bodrder-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.5s;
+    trasition-property: background;
+}      
+    .logout_btn:hover{
+  background: #1598FF;
+} 
+   .sidebar{
+     background: #686A6C;
+     margin-top: 70px;
+     padding-top: 30px;
+     position: fixed;
+     left: 0;
+     width: 250px;
+     height: 100%;
+     transition: 0.5s;
+     transition-prperty: left;
+     
+}
+. sidebar . profile_image{
+  width: 100px;
+  height: 100px;
+  boder-radius: 100px;
+  margin-bottom: 10px;
+}
+.sidebar h4{
+  color:black;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.sidebar a{
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+}
+  . sidebar a:hover{
+    background: #1589FF;
+}
+Label #sidebar_btn{
+  z-index: 1;
+  color: white;
+  position:fixed;
+  cursor: pointer;
+  left: 10px;
+  font-size: 20px;
+  margin: 5px 0;
+  transition: 0.5s;
+  transition-property: color;
+}
+label #sidebar_btn:hover{
+  color:#1589FF;
+}
+#check:checked ~ .sidebar{
+  left: -190px;
+}
+#check:checked ~ .sidebar a{
+  font-size: 20px;
+  margin-left: 170px;
+  width: 80px;
+}
+#check:checked ~. content{
+  margin-left: 60px;
+}
+#check{ 
+  display: none;
+}
+.Profile_btn{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  max-width: 550px;
+  margin: auto;
+  transition: 1s;
+  text-align: right;
+  font-family: arial;
+}
+.card{
+  width: 100px;
+  padding: 10px;
+  margin:100px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+.Travel:hover{
+  transform: scale(1.3);
+  z-index:2;
+}
+.Travel{
+  color: white;
+  font=size: 22px
+}
+h1{
+  color: white;
+  font=size: 50px;
+}
+a{
+  color:white;
+  font-szie:22px
+}
+a{
+  color: white;
+  font-size: 22px;
+}
+i, span {
+  color: black;
+  font_size: 22px;
+}
+.card p{ margin-left:100px}
+    
 
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
